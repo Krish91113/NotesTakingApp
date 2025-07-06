@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #ffeadd;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 5px;
+}
+
+#allNote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.singleNote {
+    background-color: #13f8e5;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.note {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    resize: none;
+}
+
+.note::-webkit-scrollbar {
+    display: none;
+}
+
+.editBtn, .removeBtn {
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.date {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.hidden {
+    display: none;
+}
